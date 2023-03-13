@@ -1,4 +1,7 @@
-﻿public class Adress
+﻿Adress adress = new Adress();
+adress.Input();
+adress.Output();
+public class Adress
 {
     public string Town { get; set; }
     public string Street { get; set; }
